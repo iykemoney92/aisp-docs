@@ -90,7 +90,7 @@ const config: Config = {
 
     // Google Analytics
     gtag: {
-      trackingID: 'GA_MEASUREMENT_ID_DOCS',
+      trackingID: 'G-32SP34R329',
       anonymizeIP: true,
     },
 
