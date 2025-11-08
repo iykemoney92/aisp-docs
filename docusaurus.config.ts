@@ -45,6 +45,18 @@ const config: Config = {
     },
   },
 
+  // PostHog Analytics
+  scripts: [
+    {
+      src: 'https://app.posthog.com/static/array.js',
+      async: true,
+    },
+    {
+      src: '/js/posthog.js',
+      async: false,
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -75,6 +87,13 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/aisp-social-card.jpg',
+
+    // Google Analytics
+    gtag: {
+      trackingID: 'GA_MEASUREMENT_ID_DOCS',
+      anonymizeIP: true,
+    },
+
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
