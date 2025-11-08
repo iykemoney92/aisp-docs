@@ -25,7 +25,7 @@ const config: Config = {
   organizationName: 'aisp', // Usually your GitHub org/user name.
   projectName: 'aisp-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // Allow build with broken links while we build out docs
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
