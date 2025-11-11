@@ -77,6 +77,10 @@ const config: Config = {
           blogDescription: 'Latest news, updates, and announcements from AI Studio Plus',
           postsPerPage: 10,
         },
+        gtag: {
+          trackingID: 'G-32SP34R329',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -87,12 +91,6 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/aisp-social-card.jpg',
-
-    // Google Analytics
-    gtag: {
-      trackingID: 'G-32SP34R329',
-      anonymizeIP: true,
-    },
 
     colorMode: {
       defaultMode: 'light',
