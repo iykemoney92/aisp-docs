@@ -38,6 +38,15 @@ const sidebars: SidebarsConfig = {
         // More articles coming soon...
       ],
     },
+    {
+      type: 'category',
+      label: 'AI Agents',
+      items: [
+        'features/agents/configuration-guide',
+        'features/agents/example-configurations',
+        'features/agents/json-schema-reference',
+      ],
+    },
   ],
 
   // Tutorials sidebar - COMING SOON
